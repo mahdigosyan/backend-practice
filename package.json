@@ -9,7 +9,8 @@
   "start:global": "node sections/01-intro/02-global/index.js",
   "start:modules": "node sections/01-intro/03-modules/index.js",
   "start:esm": "node sections/01-intro/04-es-modules/index.mjs",
-  "start:commonjs": "node sections/01-intro/05-module-comparison/index.cjs"
+  "start:commonjs": "node sections/01-intro/05-module-comparison/index.cjs",
+  "start:http": "node sections/01-intro/06-http-server/index.mjs"
 
 
 }
