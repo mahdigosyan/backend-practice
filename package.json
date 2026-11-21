@@ -1,0 +1,26 @@
+{
+  "name": "backend-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahdigosyan/backend-practice.git"
+  },
+  "keywords": [ 
+    "nodejs",
+    "backend",
+    "api"
+  ],
+  "author": "Mahdi Gosyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahdigosyan/backend-practice/issues"
+  },
+  "homepage": "https://github.com/mahdigosyan/backend-practice#readme"
+}
