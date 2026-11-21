@@ -4,10 +4,10 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js"
-    
-  },
+  "start:init": "node sections/01-intro/01-npm-init/src/index.js",
+  "start:global": "node sections/01-intro/02-global/index.js"
+}
+,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mahdigosyan/backend-practice.git"
