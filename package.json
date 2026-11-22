@@ -5,21 +5,20 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-  "start:init": "node sections/01-intro/01-npm-init/src/index.js",
-  "start:global": "node sections/01-intro/02-global/index.js",
-  "start:modules": "node sections/01-intro/03-modules/index.js",
-  "start:esm": "node sections/01-intro/04-es-modules/index.mjs",
-  "start:commonjs": "node sections/01-intro/05-module-comparison/index.cjs",
-  "start:http": "node sections/01-intro/06-http-server/index.mjs"
+    "start:init": "node sections/01-intro/01-npm-init/src/index.js",
+    "start:global": "node sections/01-intro/02-global/index.js",
+    "start:modules": "node sections/01-intro/03-modules/index.js",
+    "start:esm": "node sections/01-intro/04-es-modules/index.mjs",
+    "start:commonjs": "node sections/01-intro/05-module-comparison/index.cjs",
+    "start:http": "node sections/01-intro/06-http-server/index.mjs",
+    "dev:http": "nodemon sections/01-intro/06-http-server/index.mjs"
 
-
-}
-,
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mahdigosyan/backend-practice.git"
   },
-  "keywords": [ 
+  "keywords": [
     "nodejs",
     "backend",
     "api"
@@ -29,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/mahdigosyan/backend-practice/issues"
   },
-  "homepage": "https://github.com/mahdigosyan/backend-practice#readme"
+  "homepage": "https://github.com/mahdigosyan/backend-practice#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
