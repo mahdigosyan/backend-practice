@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Mechanical Keyboard",
+    "price": 4000000,
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Wireless Mouse",
+    "price": 3400000,
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "USB-C Hub",
+    "price": 1200000,
+    "inStock": false
+  }
+]
